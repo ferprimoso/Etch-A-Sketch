@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+main {
+    width: 1000px;
+    height: 1000px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container {
+    width: 800px;
+    height: 800px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);   
+}
+
+div {
+    border: 1px solid black;
+}
