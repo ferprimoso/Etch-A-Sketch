@@ -17,7 +17,7 @@ main {
 }
 
 div {
-    border: 1px solid black;
+    border: 0px solid black;
 }
 
 button {
@@ -26,6 +26,10 @@ button {
     margin-top: 0px;
     margin: 50px;
     font-size: 16px;
+}
+
+label {
+    font-size: 30px;
 }
 
 .grid-button {
